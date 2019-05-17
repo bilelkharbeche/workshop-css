@@ -1,13 +1,12 @@
-/* Shape
+/* Shape*/
 .shape {
   float: left;
   width: 15em;
   height: 10em;
   shape-outside: circle();
 }
-*/
 
-/*
+
 aside {
     width: 0;
     height: 0;
@@ -16,4 +15,3 @@ aside {
     border-bottom: 100px solid red;
 }
 
-*/

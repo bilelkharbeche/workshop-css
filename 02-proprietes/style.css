@@ -1,4 +1,4 @@
-/* Gestion des polices
+/* Gestion des polices*/
 p {
   font-family: Helvetica;
   font-size: 24px;
@@ -6,38 +6,38 @@ p {
   font-style: italic;
 }
 
-*/
 
-/* Gestion des zones de texte
+
+/* Gestion des zones de texte*/
 p {
   text-align: right;
   text-decoration: underline;
   text-transform: capitalize;
 }
-*/
 
-/* Gestion des lignes
+
+/* Gestion des lignes*/
 p {
   line-height: 3;
 }
-*/
+
 /* Gestion des mots
 p {
 
   word-spacing: 30px;
   word-break: break-all;
   letter-spacing: 20px;
-}
-*/
+}*/
 
-/* Box Model
+
+/* Box Model*/
 p {
   padding: 10px;
   border: solid 1px;
   margin: 10px;
 }
-*/
-/* Fond d'écran
+
+/* Fond d'écran*/
 body {
   background-image : url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png);
     background-repeat: no-repeat;
@@ -45,10 +45,10 @@ body {
   margin-right: 200px;
 
 }
-*/
 
-/* Opacité
+
+/* Opacité*/
 p:hover {
   opacity: 0.1;
 }
-*/
+

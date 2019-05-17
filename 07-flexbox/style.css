@@ -12,20 +12,20 @@
 
 /* Etape 1 : display: flex */
 /* => les éléments se mettent les uns à côté des autres */
-/*
+
 .conteneur {
   display: flex;
 }
-*/
+
 
 /* Etape 2 : display: flex / flex-wrap: */
 /* => les éléments se mettent les uns à côté des autres */
-/*
+
 .conteneur {
   display: flex;
   flex-wrap: wrap;
 }
-*/
+
 
 /* Etape 3 : Changer la hauteur d'un élément */
 /* => la hauteur des autres éléments suivent */
