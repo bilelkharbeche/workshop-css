@@ -29,7 +29,7 @@
 
 /* Etape 3 : Changer la hauteur d'un élément */
 /* => la hauteur des autres éléments suivent */
-/*
+
 .conteneur {
   display: flex;
 }
@@ -37,39 +37,39 @@
 .element:nth-of-type(1) {
   height: 200px;
 }
-*/
+
 
 
 /* Etape 4 : flex-direction : column */
 /* => les éléments se mettent les uns sur les autres */
-/*
+
 .conteneur {
   display: flex;
   flex-direction: column;
 }
-*/
+
 
 /* Etape 5 : flex-direction: column-reverse */
 /* => les éléments se mettent les uns sur les autres dans l'ordre inverse */
-/*
+
 .conteneur {
   display: flex;
   flex-direction: column-reverse;
 }
-*/
+
 
 /* Etape 6 : justify-content */
-/*
+
 .conteneur {
   display: flex;
   justify-content: space-between;
 }
-*/
+
 
 /* Etape 7 : item : flex-grow */
 /* poids des éléments sur une ligne */
 /* => exemple avec tous les éléments avec le même poids */
-/*
+
 .conteneur {
   display: flex;
 }
@@ -77,12 +77,12 @@
 .element {
   flex-grow: 1;
 }
-*/
+
 
 /* Etape 8 : item :flex-grow */
 /* poids des éléments sur une ligne */
 /* => exemple avec des poids différents */
-/*
+
 .conteneur {
   display: flex;
 }
@@ -98,11 +98,11 @@
 .element:nth-of-type(3) {
   flex-grow: 1;
 }
-*/
+
 
 /* Etape 9 : item: flex-basis */
 /* exemple avec seul l'élément central a le droit de s'agrandir */
-/*
+
 .conteneur {
   display: flex;
 }
@@ -121,11 +121,11 @@
   flex-grow: 0;
   flex-basis: 100px;
 }
-*/
+
 
 /* Etape 10 : item: flex-shrink */
 /* exemple avec seul l'élément central a le droit de se rétrécir */
-/*
+
 .conteneur {
   display: flex;
 }
@@ -147,12 +147,12 @@
   flex-shrink: 0;
   flex-basis: 100px;
 }
-*/
+
 
 /* Etape 11 : item: flex */
 /* flex: flex-grow flex-shrink flex-basis */
 /* exemple avec seul l'élément central a le droit de se rétrécir */
-/*
+
 .conteneur {
   display: flex;
 }
@@ -168,4 +168,4 @@
 .element:nth-of-type(3) {
   flex: 0 0 100px;
 }
-*/
+
